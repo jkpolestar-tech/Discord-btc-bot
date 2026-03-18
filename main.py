@@ -4,7 +4,7 @@ import json
 from datetime import datetime, timezone
 
 import requests
-
+print("BOT STARTING...")
 print("BOT IS RUNNING...", flush=True)
 
 INFO_URL = "https://api.hyperliquid.xyz/info"
