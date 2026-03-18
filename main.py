@@ -2,7 +2,7 @@ import time
 import requests
 import random
 
-WEBHOOK = "WEBHOOK = "https://discord.com/api/webhooks/1402692956259090436/e-h2wd6zUpWfQdlH-euJCMQ7HJTQrZ_U6ONivTlTqQ9092VIS_ZK7o-3BSmqq8IThlJO""
+WEBHOOK = "https://discord.com/api/webhooks/1402692956259090436/e-h2wd6zUpWfQdlH-euJCMQ7HJTQrZ_U6ONivTlTqQ9092VIS_ZK7o-3BSmqq8IThlJO""
 
 def send_signal():
     signals = [
