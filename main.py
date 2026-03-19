@@ -24,7 +24,7 @@ MIN_SIGNAL_SCORE_B = int(os.getenv("MIN_SIGNAL_SCORE_B", "5"))
 
 ALERT_COOLDOWN_MINUTES = int(os.getenv("ALERT_COOLDOWN_MINUTES", "180"))
 MAX_SIGNALS_PER_DAY = int(os.getenv("MAX_SIGNALS_PER_DAY", "10"))
-MAX_A_SIGNALS_PER_SCAN = int(os.getenv("MAX_A_SIGNALS_PER_SCAN", "1"))
+MAX_A_SIGNALS_PER_SCAN = int(os.getenv("MAX_A_SIGNALS_PER_SCAN", "2"))
 
 # Smart Limit
 SMART_LIMIT_ENABLED = os.getenv("SMART_LIMIT_ENABLED", "true").lower() == "true"
