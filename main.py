@@ -745,7 +745,17 @@ def send_status_report(state, btc_bias):
     safe_discord(state, msg, dedupe_key=f"status_{int(now_ts // 60)}")
     state["last_status_time"] = now_ts
 
+def count_open_exposure(open_trades):
+    total_longs = 0
+    total_shorts = 0
 
+    for _, trade in open_trades.items():
+        if trade["side"] == "LONG":
+            total_longs += 1
+        if trade["side"] == "SHORT":
+            total_shorts += 1
+
+    return total_longs, total_shorts
 def passes_filters(sig, state):
     total_longs, total_shorts = count_open_exposure(state["open"])
     side = sig["side"]
