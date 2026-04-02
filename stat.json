@@ -1,0 +1,18 @@
+{
+  "open": {},
+  "last_alerts": {},
+  "discord_dedupe": {},
+  "market_ctx_prev": {},
+  "last_status_time": 0,
+  "direction_cooldown_until": {
+    "LONG": "",
+    "SHORT": ""
+  },
+  "coin_cooldown_until": {},
+  "signal_lock_until": {},
+  "daily_stats": {
+    "date": "",
+    "sl_count": 0,
+    "pause_until": ""
+  }
+}
